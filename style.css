@@ -1,10 +1,8 @@
-/* Reset e Variáveis */
 :root {
     --bg-color: #201F22;
-    --card-bg: #202024;
-    --primary-color: #8257e5;
-    /* Roxo */
-    --text-color: #e1e1e6;
+    --card-bg: #201F22;
+    --primary-color: #621E9B;
+    --text-color: #F4F2FA;
     --text-secondary: #a8a8b3;
     --font-main: 'Poppins', sans-serif;
 }
@@ -51,7 +49,6 @@ body {
     gap: 0.5rem;
     text-decoration: none;
     color: #ffffff;
-    font-size: 0.9rem;
     letter-spacing: 0.08em;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -65,11 +62,6 @@ body {
 .nav-item img {
     width: 18px;
     height: 18px;
-}
-
-.logo {
-    font-weight: 600;
-    font-size: 1rem;
 }
 
 .logo-initial {
@@ -117,7 +109,7 @@ body {
     gap: 0.5rem;
     text-decoration: none;
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 15px;
     letter-spacing: 0.08em;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
